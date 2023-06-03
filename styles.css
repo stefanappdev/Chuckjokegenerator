@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+#app-bg{
+    background-color: #f7c00a;
+    padding-top: 25%;
+    height:100vh;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+#joke-bg{
+    background-color: #0b0c0d;
+    
+    padding-right:20%;
+    padding-top:15%;
+    
+
+}
+
+button{
+    background-color: #f7c00a;
+    font-weight: bold;
+    margin: 25px;
+}
+
+#joke{
+    color:#ffffff;
+}
