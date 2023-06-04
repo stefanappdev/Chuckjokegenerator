@@ -2,11 +2,11 @@
 
 
 
-function getRandomJoke(){
+async function getRandomJoke(){
 
 
 try {
-    let response=fetch('https://api.chucknorris.io/jokes/random')
+    let response=await fetch('https://api.chucknorris.io/jokes/random')
     .then(res=>{
         if (!res.ok){
 
